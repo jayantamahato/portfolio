@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    margin-top: 30px;
+    background-color: #987750;
+    color: #212529;
+    
+}
+footer h5{
+    font-size: 18px;
+    margin: 0px;
+    padding-left: 20px;
+}

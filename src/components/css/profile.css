@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    right: 5px;
+    position: fixed;
+
+}
+
+.left img {
+    height: 400px;
+    border: 1px solid #987750;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.right {
+    width: 64%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.right>.name {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.address {
+height: 300px;
+}
+
+.address-heading,
+.social-heading,
+.meritial-status-heading,
+.extra-qualification-heading,
+.education-heading,
+.skill-heading {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border: 2px solid #987750;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+.skill-name{
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase; 
+}
+
+hr {
+    color: #987750; 
+}
+ul{
+    list-style-type: none;
+
+}
+.imp{
+    color: #987750;
+}
+li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    text-transform: uppercase;
+    
+}
+
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+  }
+  
+  .skill-per{
+    height: 14px;
+    background: #987750;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    /* max-width: 70%; */
+  }
+
+.c-bar{
+  height: 14px;
+  background: #987750;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+  max-width: 70%;
+}
+
+.java-bar{
+  height: 14px;
+  background: #987750;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+  max-width: 50%;
+}
+  .html-bar{
+    height: 14px;
+    background: #987750;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    max-width: 90%;
+  }
+  .js-bar{
+    height: 14px;
+    background: #987750;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    max-width: 50%;
+  }
+  .css-bar{
+    height: 14px;
+    background: #987750;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    max-width: 70%;
+  }
+  .php-bar{
+    height: 14px;
+    background: #987750;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    max-width: 70%;
+  }
+  .sql-bar{
+    height: 14px;
+    background: #987750;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    max-width: 55%;
+  }
+  .react-bar{
+    height: 14px;
+    background: #987750;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    max-width: 65%;
+  }
+  .node-bar{
+    height: 14px;
+    background: #987750;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+    max-width: 60%;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    color: #987750;
+    overflow: hidden;
+
+    border-radius: 4px;
+    font-size: 12px;
+    top: -39px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+    
+  }
+  .contact-heading{
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase; 
+  }
+  
+  @keyframes fillBars{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
+  }
+.qualification{
+    height: 300px;
+}
+.extra-qualification{
+    height: 200px;
+}
+.meritial-status{
+    height: 200px;
+}
+.social{
+    height: 200px;
+}
+.s-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.s-logo img{
+    height: 64px;
+    width: 64px;
+    border-radius: 9px;
+
+}
+.s-logo img:hover{
+    box-shadow: 5px 5px 15px #987750;
+
+}
+.left button{
+    height: 50px;
+    border: 2px solid #987750;
+    background-color: transparent;
+}
+.left button:hover{
+    background-color: #987750;
+    transition: 1s;
+    color: white;
+}
+.contact input{
+    background: none;;
+    border: 1px solid #987750;
+    height: 45px;
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+.contact button{
+    background:none;
+    color: #987750;
+    height: 45px;
+    padding: 5px;
+    width: 300px;
+    margin: 5px;
+    border: 1px solid #987750;
+}
+.contact button:hover{
+    background-color: #987750;
+    color: white;
+}
+@media screen and (max-width: 902px) {
+    .profile{
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+    }
+    .left {
+        position: relative;
+        align-items: center;
+    }
+    .right{
+        width: 100%;
+        margin: 0px;
+    }
+    .left button{
+        width: 90%;
+        margin: 0px;
+    }
+    .left img{
+        width: 97%;
+    }
+    .address-heading,
+.social-heading,
+.meritial-status-heading,
+.extra-qualification-heading,
+.education-heading,
+.skill-heading {
+    width: 300px;
+    font-size: 18px;
+}
+.s-logo img{
+    height: 40px;
+    width: 40px;
+}
+}

@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.intro-content{
+    width: 100%;
+    display: flex;
+}
+.intro-content>.top-left p{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+.intro-content>.top-left>.heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro-content>.top-left>.heading h4{
+    font-size: 30px;
+}
+.intro-content>.top-left>.signature{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 80px;
+    height: 84px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.255);
+}
+.intro-content>.top-left{
+    width: 38%;
+    padding: 90px;
+    border-right: 1px solid #987750;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    
+}
+.intro-content>.top-right{
+    width: 50%;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.intro-content>.top-right>.profile-picture{
+    height: 400px;
+    width: 280px;
+    margin: 80px;
+    margin: auto;
+}
+.intro-content>.top-right>.image-box-one{
+    border: 1px solid #987750;
+    height: 600px;
+    width: 380px;
+    margin-top: -435px;
+    margin-left: 174px;   
+}
+.intro-content>.top-right>.image-box-two{
+    border: 1px solid #987750;
+    height: 560px;
+    width: 415px;
+    position: absolute;
+    margin-left: 157px;
+    margin-top: -585px;
+}
+.intro-content>.top-left h6{
+    color: #987750;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+.intro-content>.top-right img{
+    height: 400px;
+    width: 280px;
+}
+.caption{
+    width: 210px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 256px;
+    height: 100px;
+    text-transform: capitalize;
+}
+.caption>.dynamic-text{
+    color: #987750;
+    line-height: 30px;
+    height: 30px;
+    width: 240px;
+    overflow: hidden;
+    margin-left: -25px;
+
+}
+.dynamic-text li{
+    list-style: none;
+    position: relative;
+    top: 0;
+    animation: slide 15s steps(3) infinite;
+
+}
+@keyframes slide{
+    100%{
+    top: -120px;
+    }
+}
+
+.dynamic-text li::after{
+    left: 0;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 400px;
+    background-color: #212529;
+    border-left: 2px solid #987750;
+    animation: typing 5s steps(30) infinite;
+}
+@keyframes typing {
+    40%,60%{
+        left:calc(100% + 30px);
+    }
+}
+.content>.service-content{
+    width: 50%;
+    margin: auto;
+    height: 50vh;
+    margin-top: 200px;
+}
+.service-content p{
+    font-size: 24px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+.service-content h6{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color:#987750;
+}
+.service-content h4{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.service-content button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #987750;
+    color: #987750;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+.service-content button:hover{
+    background-color: #987750;
+    border: none;
+    color: black;
+    transition: 2s;
+    border:1px solid black;
+}
+
+
+.content>.about-content{
+    width: 50%;
+    margin: auto;
+    height: 90vh;
+    margin-top: 200px;
+    padding: 20px;
+}
+.about-content li{
+    font-size: 24px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+.about-content h6{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color:#987750;
+}
+.about-content h4{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.about-content button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #987750;
+    color: #987750;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+.about-content button:hover{
+    background-color: #987750;
+    border: none;
+    color: black;
+    transition: 2s;
+    border:1px solid black;
+}
+
+.caption>p{
+    color: #987750;
+}
+@media screen and (max-width: 902px){
+    .intro-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-content>.top-left{
+        border: none;
+        height: 35vh;
+        width: auto;
+        text-align: center;
+        padding: 15px;
+        border-bottom: 1px solid #987750;
+    }
+    .intro-content>.top-left h6{
+        color: #987750;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+    }
+    .intro-content>.top-left>.heading h4{
+        font-size: 15px;
+    }
+    .intro-content>.top-left>.signature{
+        font-size: 50px;
+    }
+    .intro-content>.top-left>p{
+        font-size: 12px;
+    }
+    .intro-content>.top-right{
+        border: none;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    .intro-content>.top-right>.image-box-one{
+        display: none;
+    }
+    .intro-content>.top-right>.image-box-two{
+        display: none;
+    }
+    .caption{
+        width: 200px;
+        margin: auto;
+        text-align: center;
+        position: relative;   
+        height: 80px;
+        text-transform: capitalize;
+    }
+    .intro-content>.top-right img{
+    border-radius: 8px;
+    
+    }
+    .content>.service-content{
+        width: 85%;
+        margin: auto;
+        height: 40vh;
+        margin-top: 100px;
+        padding: 20px;
+    }
+    .service-content p{
+        font-size: 18px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        font-family: 'Raleway', sans-serif;
+    }
+    .service-content h6{
+        font-family: 'Cinzel', serif;
+        font-size: 15px;
+        color:#987750;
+    }
+    .service-content h4{
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    .service-content button{
+        margin-top: 30px;
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid #987750;
+        color: #987750;
+        font-family: 'Cinzel', serif;
+        text-transform: uppercase;
+    }
+    .service-content button:hover{
+        background-color: #987750;
+        border: none;
+        color: black;
+        transition: 2s;
+        border:1px solid black;
+    }
+    
+    
+    .content>.about-content{
+        width: 85%;
+        margin: auto;
+        height: 65vh;
+        margin-top: 100px;
+        padding: 10px;
+        text-align: center;
+    }
+    .about-content li{
+        font-size: 12px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        font-family: 'Raleway', sans-serif;
+    }
+    .about-content h6{
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        color:#987750;
+    }
+    .about-content h4{
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    .about-content button{
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid #987750;
+        color: #987750;
+        font-family: 'Cinzel', serif;
+        text-transform: uppercase;
+    }
+    .about-content button:hover{
+        background-color: #987750;
+        border: none;
+        color: black;
+        transition: 2s;
+        border:1px solid black;
+    }
+    
+    .caption>p{
+        color: #987750;
+    }
+
+
+
+}
