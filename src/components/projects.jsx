@@ -29,16 +29,16 @@ const Projects = () => {
         window.open('https://www.loom.com/share/9409cb3a032b46debe8ab86335340dfc');
     }
     const loom_event = () => {
-        window.open('https://www.loom.com/share/9409cb3a032b46debe8ab86335340dfc');
+        window.open('https://askweddingplanner.000webhostapp.com/');
     }
     const loom_std = () => {
-        window.open('https://www.loom.com/share/9409cb3a032b46debe8ab86335340dfc');
+        alert('in developent phase...');
     }
     const loom_ecom = () => {
         window.open('https://j1ecomerce.000webhostapp.com');
     }
     const loom_fd = () => {
-        window.open('https://www.loom.com/share/9409cb3a032b46debe8ab86335340dfc');
+        alert('after few days it will be live...');
     }
     return (
         <div className="projects">
