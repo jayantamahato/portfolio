@@ -7,9 +7,7 @@ const Home = () => {
     const projects = () => {
         navigate('/projects')
     }
-    const download = ()=>{
-        window.location.href ={my_pic};
-    }
+    
     return (
         <div className="content">
             <div className="intro-content">
@@ -28,7 +26,7 @@ const Home = () => {
                 </div>
                 <div className="top-right">
                     <div className="profile-picture">
-                        <img src={my_pic} />
+                        <img src={my_pic} alt ="myy"/>
                     </div>
                     <div className="image-box-one">
                     </div>
