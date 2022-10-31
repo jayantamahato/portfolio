@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ae1230c9.css",
+    "main.js": "/portfolio/static/js/main.1b4f1fde.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/std-mannagement.png": "/portfolio/static/media/std-mannagement.86e58906c6b755bd737f.png",
+    "static/media/ecom.png": "/portfolio/static/media/ecom.773003e223cdd33917bd.png",
+    "static/media/event.png": "/portfolio/static/media/event.4af6ea1f6cded6279838.png",
+    "static/media/todo.png": "/portfolio/static/media/todo.1ea8d805ee27cd9fe7a3.png",
+    "static/media/mypic.jpg": "/portfolio/static/media/mypic.65913bcd9c5198898505.jpg",
+    "static/media/my_pic.png": "/portfolio/static/media/my_pic.9203ae70686111d0d249.png",
+    "static/media/jayanta_mahato.pdf": "/portfolio/static/media/jayanta_mahato.d5226b7d9913db5253a9.pdf",
+    "static/media/FAKE-CERTIFICATE.jpg": "/portfolio/static/media/FAKE-CERTIFICATE.9ebab3d228767e6c0b58.jpg",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.776d16d0e9daa177afd5.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.b2c73582b28f5bd08551.png",
+    "index.html": "/portfolio/index.html",
+    "main.ae1230c9.css.map": "/portfolio/static/css/main.ae1230c9.css.map",
+    "main.1b4f1fde.js.map": "/portfolio/static/js/main.1b4f1fde.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/portfolio/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae1230c9.css",
+    "static/js/main.1b4f1fde.js"
+  ]
+}
