@@ -237,9 +237,11 @@
     }
     .intro-content>.top-left>.heading h4{
         font-size: 15px;
+        
     }
     .intro-content>.top-left>.signature{
         font-size: 50px;
+        margin-top: 0px;
     }
     .intro-content>.top-left>p{
         font-size: 18px;
