@@ -17,11 +17,11 @@ const Home = () => {
                         <h4>WEB DEVELOPER</h4>
                     </div>
                     <p>
-                        i design and develop web app for customer of all sizesspecializing in creating stylish,
+                        i design and develop web app for customer of all sizes.specializing in creating stylish,
                         modern websites.
                     </p>
                     <div className="signature">
-                        Jayata Mahato
+                        Jayanta Mahato
                     </div>
                 </div>
                 <div className="top-right">
@@ -49,7 +49,7 @@ const Home = () => {
                     <h4>What I do ?</h4>
                 </div>
                 <p>
-                    i design and develop  morder,stylish web app for customer. i have three year work exprience in web development.
+                    i design and develop  modern ,stylish web app for customer. i have three year work experience in web development.
                     i have completed many projects..
                 </p>
                 <button onClick={() => { projects() }}>Projects</button>
@@ -62,11 +62,11 @@ const Home = () => {
                 <div className="about-section">
                     <ul>
                         <li>Name:Jayanta Mahato</li>
-                        <li>Birth Date:24th febuary 2000</li>
+                        <li>Birth Date:24th february 2000</li>
                         <li>Age:22 year</li>
                         <li>Address:Purulia,West Bengal,India</li>
                         <li>Phone:9064187130/8207064802</li>
-                        <li>emial:support.jayanta@proton.me</li>
+                        <li>email:support.jayanta@proton.me</li>
                     </ul>
                     <a href={cv} download='Jayanta Mahato Resume' target='_blank'><button>Download My CV</button></a>
                 </div>

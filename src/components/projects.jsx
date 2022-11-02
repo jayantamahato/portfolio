@@ -32,7 +32,7 @@ const Projects = () => {
         window.open('https://askweddingplanner.000webhostapp.com/');
     }
     const loom_std = () => {
-        alert('in developent phase...');
+        alert('in development phase...');
     }
     const loom_ecom = () => {
         window.open('https://j1ecomerce.000webhostapp.com');
@@ -85,7 +85,7 @@ const Projects = () => {
                         <img src={std} alt="project template" />
                     </div>
                     <div className="project-name">
-                        <h6>Student Mannagement System</h6>
+                        <h6>Student Management System</h6>
                     </div>
                     <div className="project-link">
                         <div className="git">

@@ -19,7 +19,7 @@ const Profile = () => {
         window.open('https://www.facebook.com/jayantamahat0');
     }
     const mail = () => {
-        window.open('mailto:jayantamahato830@gmail.com?body=hiring massege!')
+        window.open('mailto:jayantamahato830@gmail.com?body=hiring massage!')
     }
     return (
         <div className="profile-content">
@@ -39,8 +39,8 @@ const Profile = () => {
                         <ul>
                             <li>Vill : Baghmara</li>
                             <li>Po : Rampur</li>
-                            <li>P.s : Rampur</li>
-                            <li>Dist : Puruia</li>
+                            <li>P.s : Neturia</li>
+                            <li>Dist : Purulia</li>
                             <li>State : West Bengal</li>
                             <li>Pin : 723121</li>
                         </ul>
@@ -113,11 +113,11 @@ const Profile = () => {
                     <div className="qualification">
                         <h4 className="education-heading">Education qualification</h4>
                         <ul>
-                            <li className='imp'>Bachelor Of Compuer Application &#x2022; 2020 <br /></li>
+                            <li className='imp'>Bachelor Of Computer Application &#x2022; 2020 <br /></li>
                             <li>Sidho Kanho Birsha University, Purulia</li>
 
-                            <li className='imp'>Master Of Compuer Application &#x2022; 2023 <br /></li>
-                            <li>Vidyasager University, Midnapore </li>
+                            <li className='imp'>Master Of Computer Application &#x2022; 2023 <br /></li>
+                            <li>Vidyasagar University, Midnapore </li>
                         </ul>
                     </div>
                     <hr />
@@ -131,9 +131,9 @@ const Profile = () => {
                     <hr />
 
                     <div className="meritial-status">
-                        <h4 className="meritial-status-heading">Meritial Status</h4>
+                        <h4 className="meritial-status-heading">Marital Status</h4>
                         <ul>
-                            <li>Unarried</li>
+                            <li>Unmarried</li>
                         </ul>
                     </div>
                     <hr />
@@ -143,18 +143,18 @@ const Profile = () => {
                         <div className="s-logo">
                             <img src={github} alt="github logo" onClick={git} />
                             <img src={linkedin_logo} alt="linkedin logo" onClick={linkedin} />
-                            <img src={instagram} alt="innstagram logo" onClick={ig} />
-                            <img src={facebook} alt=" facebooklogo" onClick={fb} />
+                            <img src={instagram} alt="instagram logo" onClick={ig} />
+                            <img src={facebook} alt=" facebook logo" onClick={fb} />
                         </div>
                     </div>
                     <hr />
 
                     <div className="contact">
-                        <h4 className="contact-heading">Send Me A massege</h4>
+                        <h4 className="contact-heading">Send Me A massage</h4>
                         <div className="con-form">
                             <input type="text" placeholder="name" />
                             <input type="email" placeholder="email" />
-                            <input type="text" placeholder="your massege" />
+                            <input type="text" placeholder="your massage" />
                             <button>send it</button>
                         </div>
                     </div>
